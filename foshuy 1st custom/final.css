@@ -1,0 +1,125 @@
+/*BEGIN PS4 Controller Styling*/
+.controller.ds4 {
+    background: url(basemod.png);
+    height: 598px;
+    width: 806px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
+}
+
+.ds4 .button {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    background: url(facemod.png);
+}
+
+.ds4 .button.pressed {
+    background-position-y: 55px;
+    /* margin-top: 5px; */
+}
+
+.ds4 .a {
+    background-position: 0 0;
+    bottom: 0;
+    left: 58px;
+}
+
+.ds4 .b {
+    background-position: -57px 0;
+    top: 58px;
+    right: 0px;
+}
+
+.ds4 .x {
+    background-position: -113px 0;
+    top: 58px;
+}
+
+.ds4 .y {
+    background-position: 55px 0;
+    left: 58px;
+}
+
+.ds4 .sticks {
+    position: absolute;
+    width: 361px;
+    height: 105px;
+    top: 308px;
+    left: 228px;
+}
+
+.ds4 .stick {
+    position: absolute;
+    background: url(sticksmod.png);
+    height: 94px;
+    width: 94px;
+}
+
+.ds4 .stick.pressed.left {
+    background-position-x: -96px;
+}
+
+.ds4 .stick.pressed.right {
+    background-position-x: -192px;
+}
+
+.ds4 .stick.left {
+    top: 0;
+    left: 0;
+}
+
+.ds4 .stick.right {
+    top: calc(100% - 105px);
+    left: calc(100% - 105px);
+}
+
+.ds4 .face {
+    background: url(ps4-assets/dpad.svgz);
+    position: absolute;
+}
+
+.ds4 .face.up, .ds4 .face.down {
+    width: 36px;
+    height: 52px;
+}
+
+.ds4 .face.left, .ds4 .face.right {
+    width: 52px;
+    height: 36px;
+}
+
+.ds4 .face.up {
+    left: 44px;
+    top: 0;
+    background-position: -37px 0px;
+}
+
+.ds4 .face.down {
+    left: 44px;
+    bottom: 0;
+    background-position: 0px 0;
+}
+
+.ds4 .face.left {
+    top: 45px;
+    left: 0;
+    background-position: 104px 0;
+}
+
+.ds4 .face.right {
+    top: 45px;
+    right: 0px;
+    background-position: 52px 0;
+}
+
+.ds4 .face.pressed {
+    /* margin-top: 5px; */
+    background-position-y: 52px;
+}
+
+.ds4.half {
+    margin-top: -300px;
+}
+
+/*END PS4 Controller Styling*/
